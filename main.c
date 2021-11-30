@@ -24,9 +24,9 @@ int main()
             
              if (pathTF(i,j)==1)
              {
-                 printf("True \n");
+                 printf("True\n");
              }
-            else printf("False \n");
+            else printf("False\n");
             }
 
 
