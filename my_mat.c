@@ -41,10 +41,10 @@ void mymat()
 
 int pathTF(int i,int j)
 {
-if (mat[i][j] < 1000000 && mat[i][j] > 0)
-{
-    return 1;
-}
+    if (mat[i][j] < 1000000000 && mat[i][j] > 0)
+    {
+        return 1;
+    }
 return 0;
 }
 
@@ -78,6 +78,7 @@ void FloydWarshall()
         }
     }
 }
+
 
 
 int matV(int p,int q)

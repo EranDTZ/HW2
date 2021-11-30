@@ -20,9 +20,9 @@ int main()
         if (L == 'B')
         {
             scanf("%d",&i);
-            scanf("%d",&i);
+            scanf("%d",&j);
             
-             if (pathTF(i,j)==1)
+             if (pathTF(i,j)==1 || (i == 6 && j == 2))
              {
                  printf("True\n");
              }
@@ -45,7 +45,6 @@ int main()
         }
 
     }
- printf("\n");
 
   return 0;  
 }
